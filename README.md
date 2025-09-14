@@ -3,6 +3,14 @@
 
 # omics4drug <img src="man/figures/logo.png" width = "175" height = "200" align="right" />
 
+<!-- badges: start -->
+
+[![R-CMD-check](https://github.com/yen-kim/omics4drug/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yen-kim/omics4drug/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![DOI](https://zenodo.org/badge/1056782986.svg)](https://doi.org/10.5281/zenodo.17117623)
+<!-- badges: end -->
+
 An R toolkit to facilitate Mass Spectrometry-based Proteomics and
 Phosphoproteomics data analysis
 
@@ -23,7 +31,8 @@ if(!requireNamespace("devtools", quietly = TRUE)) {
 devtools::install_github("yen-kim/omics4drug")
 ```
 
-This package is also accessible for download via Zenodo with the DOI.
+This package is also accessible for download via Zenodo with the DOI
+[10.5281/zenodo.17117624](https://doi.org/10.5281/zenodo.17117623).
 
 ### Functions
 

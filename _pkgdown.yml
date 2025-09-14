@@ -1,14 +1,16 @@
 authors:
   footer:
-    roles: [aut]
-    text: "Developed by"
+    roles: aut
+    text: Developed by
   sidebar:
-    roles: [aut, ctb, sad, fnd]
-
+    roles:
+    - aut
+    - ctb
+    - sad
+    - fnd
 url: https://yen-kim.github.io/omics4drug/
 template:
   bootstrap: 5
-
 reference:
 - title: Data Processing and Quality Control
   contents:
@@ -16,23 +18,18 @@ reference:
   - get_count_protein
   - get_cv
   - get_sty
-
 - title: Data Normalization
   contents:
   - get_norm_phos
   - get_norm_prot
-
 - title: Functional and Pathway Enrichment Analysis
   contents:
   - get_GO
   - get_KEGG
-
 - title: Kinase and Drug Prediction
   contents:
   - get_KSEA
   - get_inhibitor
-
 - title: Others
-  contents:
-  - get_annotation
+  contents: get_annotation
 
